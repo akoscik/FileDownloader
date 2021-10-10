@@ -72,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void stopDownload(View view){
+        downloadText.setText("Download Stopped");
         stopThread = true;
     }
 
